@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BattleAreaCard_0: 7931981446133103014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
