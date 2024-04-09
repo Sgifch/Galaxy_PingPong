@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2909444739655109680}
   - component: {fileID: 260197788336927229}
   - component: {fileID: 2487623889667325139}
+  - component: {fileID: 900365608165507906}
   m_Layer: 5
   m_Name: ReadyButton
   m_TagString: Untagged
@@ -119,4 +120,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 260197788336927229}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 900365608165507906}
+        m_TargetAssemblyTypeName: ButttonReady, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &900365608165507906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2465495928193443903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 503c1a6d790c03347809de17f80989cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card1: {fileID: 7157457962515477016, guid: d02804f7e183778468bad249c89dc319, type: 3}
+  card2: {fileID: 2924716895264471071, guid: 80a20202a423c4a4e972805cf0b794a2, type: 3}
