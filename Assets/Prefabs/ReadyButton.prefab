@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 260197788336927229}
   - component: {fileID: 2487623889667325139}
   - component: {fileID: 900365608165507906}
+  - component: {fileID: 604207050562195876}
+  - component: {fileID: 8934795893087384978}
   m_Layer: 5
   m_Name: ReadyButton
   m_TagString: Untagged
@@ -147,3 +149,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card1: {fileID: 7157457962515477016, guid: d02804f7e183778468bad249c89dc319, type: 3}
   card2: {fileID: 2924716895264471071, guid: 80a20202a423c4a4e972805cf0b794a2, type: 3}
+  PlayerArea: {fileID: 0}
+--- !u!114 &604207050562195876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2465495928193443903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  _assetId: 339031991
+  serverOnly: 0
+  visibility: 0
+  hasSpawned: 0
+--- !u!114 &8934795893087384978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2465495928193443903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a553cb17010b2403e8523b558bffbc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 1
+  syncMode: 0
+  syncInterval: 0
+  target: {fileID: 2425561619973483881}
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  onlySyncOnChange: 1
+  compressRotation: 1
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 1
+  coordinateSpace: 0
+  sendIntervalMultiplier: 1
+  timelineOffset: 0
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  bufferResetMultiplier: 3
+  changedDetection: 1
+  positionSensitivity: 0.01
+  rotationSensitivity: 0.01
+  scaleSensitivity: 0.01
