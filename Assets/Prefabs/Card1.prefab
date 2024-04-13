@@ -40,8 +40,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -85, y: -201.4}
-  m_SizeDelta: {x: 44.4247, y: 53.6873}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 300, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9059065946044182438
 CanvasRenderer:
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8356702283273309736, guid: 5d67e3db29d265b4abdc39e123561856, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d67e3db29d265b4abdc39e123561856, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -138,8 +138,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27cd740b46dab4848a0a7e98272efc7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  PlayerManager: {fileID: 0}
   Canvas: {fileID: 0}
-  DropZone: {fileID: 766611707891447381, guid: 5f6042fce904bbd4cad274f13fd64e47, type: 3}
 --- !u!61 &-4829012334397107747
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -174,7 +177,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.102968216, y: -0.20593643}
+  m_Offset: {x: 0.102996826, y: -0.20592499}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -184,7 +187,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 44.452877, y: 53.720085}
+  m_Size: {x: 296.14618, y: 340.20026}
   m_EdgeRadius: 0
 --- !u!50 &-7887338960335090953
 Rigidbody2D:

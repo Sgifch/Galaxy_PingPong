@@ -140,6 +140,10 @@ PrefabInstance:
       propertyPath: m_CellSize.y
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: -2639534868398109873, guid: 0a73087cefd58c248b5b12bede0420aa, type: 3}
+      propertyPath: syncScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4502456963523796322, guid: 0a73087cefd58c248b5b12bede0420aa, type: 3}
       propertyPath: m_Name
       value: AreaBattleCard1
@@ -605,8 +609,8 @@ MonoBehaviour:
   m_StartAxis: 0
   m_CellSize: {x: 50, y: 60}
   m_Spacing: {x: 20, y: 20}
-  m_Constraint: 2
-  m_ConstraintCount: 3
+  m_Constraint: 1
+  m_ConstraintCount: 1
 --- !u!1 &863965150
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +771,14 @@ PrefabInstance:
     - target: {fileID: 1745462882566235642, guid: b45f306649f7f31409bfede72e86daf8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157228694816714645, guid: b45f306649f7f31409bfede72e86daf8, type: 3}
+      propertyPath: m_CellSize.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157228694816714645, guid: b45f306649f7f31409bfede72e86daf8, type: 3}
+      propertyPath: m_CellSize.y
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 6544061382633112419, guid: b45f306649f7f31409bfede72e86daf8, type: 3}
       propertyPath: sceneId
