@@ -36,7 +36,7 @@ public class PlayerControl : NetworkBehaviour
         position.x = Mathf.Clamp(position.x, -xLimit, xLimit);
         transform.position = position;
 
-        CameraRotation();
+        //CameraRotation();
     }
 
     void CameraRotation()
