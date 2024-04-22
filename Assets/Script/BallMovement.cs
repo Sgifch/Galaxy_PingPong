@@ -10,7 +10,7 @@ public class BallMovement : NetworkBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(4, 5);
+        rb.velocity = new Vector2(7, 9);
     }
 
     // Update is called once per frame
