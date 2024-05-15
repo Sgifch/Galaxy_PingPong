@@ -549,7 +549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c64e84f60902644eb75b860dbf2cdef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -1
+  speed: -0.5
   lowerValue: -10.8
   upperValue: 21.6
 --- !u!212 &1397248084
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c64e84f60902644eb75b860dbf2cdef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -1
+  speed: -0.5
   lowerValue: -10.8
   upperValue: 21.6
 --- !u!1 &1970501879
