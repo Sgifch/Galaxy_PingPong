@@ -159,7 +159,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   xLimit: 7
-  speed: 0.7
+  speed: 0.05
 --- !u!61 &1609377138805607936
 BoxCollider2D:
   m_ObjectHideFlags: 0
