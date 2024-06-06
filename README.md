@@ -1,1 +1,1 @@
-# durak_online_kursach_666
+# Galaxy_PingPong
